@@ -1,0 +1,44 @@
+body {
+	background:#f3f3f3;
+	-webkit-user-select: none;
+	font-size: 0px;
+	line-height: 0px;
+}
+.wrap {
+	width: 80%;
+	height: 0;
+	padding-bottom: 80%;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+}
+.box {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+}
+
+.field {
+	display: inline-block;
+	width: 12.28571428571429%;
+	height: 0;
+	padding-bottom: 12.28571428571429%;
+	margin: 1%;
+	height: 0;
+	border-radius: 50%;
+	position: relative;
+}
+.field:before {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	border: 2px solid #333;
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	background: inherit;
+}
